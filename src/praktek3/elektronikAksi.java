@@ -9,5 +9,13 @@ public class elektronikAksi {
        
        
         e.cetakInfo();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(e.getMerk());
+        System.out.print("Jenisnya \t: ");
+        System.out.println(e.getJenis());
+        System.out.print("Harganya \t: ");
+        System.out.println(e.getHarga());
+        
     }
 }
