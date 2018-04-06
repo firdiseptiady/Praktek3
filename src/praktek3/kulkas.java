@@ -7,4 +7,14 @@ public class kulkas extends Elektronik{
         System.out.println("druttttttt...............");
         
     }
+
+    public String getJeniskulkas() {
+        return jeniskulkas;
+    }
+
+    public void setJeniskulkas(String jeniskulkas) {
+        this.jeniskulkas = jeniskulkas;
+    }
+    
+    
 }
