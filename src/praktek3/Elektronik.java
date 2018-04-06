@@ -3,9 +3,9 @@ package praktek3;
 import static java.time.Clock.system;
 
 public class Elektronik {
-    String merk;
-    String jenis;
-    double harga;
+    private String merk;
+    private String jenis;
+    private double harga;
     
     
     void cetakInfo(){
